@@ -13,7 +13,7 @@ public class HelloController {
         return "hello";
     }
 
-    // http://localhost:8080/hello/dto?name=한돈희&amount=1000
+    // http://localhost:8080/hello/dto?name=doni&amount=1000
     @GetMapping("/hello/dto")
     public HelloResponseDto helloDto(
             @RequestParam("name") String name,
